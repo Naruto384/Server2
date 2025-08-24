@@ -1,58 +1,477 @@
-[24Aug2025 00:28:43.379] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[24Aug2025 00:28:43.383] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
-[24Aug2025 00:28:43.620] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[24Aug2025 00:28:43.667] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Server2/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[24Aug2025 00:28:43.935] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server2/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[24Aug2025 00:28:43.937] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server2/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[24Aug2025 00:28:43.939] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server2/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[24Aug2025 00:28:43.941] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server2/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[24Aug2025 00:28:44.091] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
-[24Aug2025 00:28:45.971] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[24Aug2025 00:28:46.043] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.robertx22.library_of_exile.MixinConnector]
-[24Aug2025 00:28:46.044] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.robertx22.mmorpg.MixinConnector]
-[24Aug2025 00:28:46.047] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[24Aug2025 00:28:46.415] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/layers/ItemInHandLayer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.layers.ItemInHandLayer)
-[24Aug2025 00:28:46.416] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.layers.ItemInHandLayer was not found mmorpg-mixins.json:PlayerAnimMixin
-[24Aug2025 00:28:52.743] [modloading-worker-0/INFO] [Exile Log: com.robertx22.library_of_exile.registry.helpers.OrderedModConstructor/]: Mod Constructor Registered : library_of_exile
-[24Aug2025 00:28:52.773] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[24Aug2025 00:28:52.786] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[24Aug2025 00:28:52.857] [modloading-worker-0/INFO] [Exile Log: com.robertx22.library_of_exile.registry.helpers.OrderedModConstructor/]: Mod Constructor Registered : dungeon_realm
-[24Aug2025 00:28:52.875] [modloading-worker-0/INFO] [Exile Log: com.robertx22.library_of_exile.registry.helpers.OrderedModConstructor/]: Mod Constructor Registered : the_harvest
-[24Aug2025 00:28:53.080] [modloading-worker-0/INFO] [Exile Log: com.robertx22.library_of_exile.registry.helpers.OrderedModConstructor/]: Mod Constructor Registered : mmorpg
-[24Aug2025 00:28:53.156] [modloading-worker-0/INFO] [dungeon_realm/]: Dungeon Realm loaded.
-[24Aug2025 00:28:54.644] [modloading-worker-0/WARN] [Exile Log: com.robertx22.library_of_exile.registry.ExileRegistryContainer/]: Entry of type: mmorpg_stat_condition already exists as seriazable: random_roll
-[24Aug2025 00:28:54.804] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[24Aug2025 00:28:54.946] [modloading-worker-0/WARN] [Exile Log: com.robertx22.library_of_exile.registry.ExileRegistryContainer/]: Entry of type: mmorpg_gear_rarity already exists as seriazable: common
-[24Aug2025 00:28:54.965] [modloading-worker-0/WARN] [Exile Log: com.robertx22.library_of_exile.registry.ExileRegistryContainer/]: Entry of type: mmorpg_gear_rarity already exists as seriazable: uncommon
-[24Aug2025 00:28:54.975] [modloading-worker-0/WARN] [Exile Log: com.robertx22.library_of_exile.registry.ExileRegistryContainer/]: Entry of type: library_of_exile_item_requirement already exists as seriazable: is_map
-[24Aug2025 00:28:55.067] [modloading-worker-0/INFO] [io.redspace.ironsspellbooks.IronsSpellbooks/]: Got IMC []
-[24Aug2025 00:28:55.351] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[24Aug2025 00:28:56.286] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[24Aug2025 00:28:57.000] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Server2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23119!/assets/.mcassetsroot' uses unexpected schema
-[24Aug2025 00:28:57.000] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Server2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23119!/data/.mcassetsroot' uses unexpected schema
-[24Aug2025 00:28:59.170] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe irons_spellbooks:curios/concentration_amulet
-com.google.gson.JsonSyntaxException: Unknown item 'irons_spellbooks:mithril_ingot'
-	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23119!/:?]
+[24Aug2025 00:34:33.800] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[24Aug2025 00:34:33.804] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[24Aug2025 00:34:34.143] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[24Aug2025 00:34:34.196] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Server2/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[24Aug2025 00:34:34.424] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server2/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[24Aug2025 00:34:34.425] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server2/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[24Aug2025 00:34:34.427] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server2/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[24Aug2025 00:34:34.428] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server2/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[24Aug2025 00:34:34.550] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[24Aug2025 00:34:36.420] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[24Aug2025 00:34:36.495] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.robertx22.library_of_exile.MixinConnector]
+[24Aug2025 00:34:36.497] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.robertx22.mmorpg.MixinConnector]
+[24Aug2025 00:34:36.500] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[24Aug2025 00:34:36.824] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/layers/ItemInHandLayer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.layers.ItemInHandLayer)
+[24Aug2025 00:34:36.825] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.layers.ItemInHandLayer was not found mmorpg-mixins.json:PlayerAnimMixin
+[24Aug2025 00:34:42.716] [modloading-worker-0/INFO] [Exile Log: com.robertx22.library_of_exile.registry.helpers.OrderedModConstructor/]: Mod Constructor Registered : library_of_exile
+[24Aug2025 00:34:42.824] [modloading-worker-0/INFO] [Exile Log: com.robertx22.library_of_exile.registry.helpers.OrderedModConstructor/]: Mod Constructor Registered : the_harvest
+[24Aug2025 00:34:43.087] [modloading-worker-0/INFO] [Exile Log: com.robertx22.library_of_exile.registry.helpers.OrderedModConstructor/]: Mod Constructor Registered : mmorpg
+[24Aug2025 00:34:43.801] [modloading-worker-0/INFO] [Exile Log: com.robertx22.library_of_exile.registry.helpers.OrderedModConstructor/]: Mod Constructor Registered : dungeon_realm
+[24Aug2025 00:34:43.808] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[24Aug2025 00:34:43.809] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[24Aug2025 00:34:44.159] [modloading-worker-0/INFO] [dungeon_realm/]: Dungeon Realm loaded.
+[24Aug2025 00:34:53.784] [modloading-worker-0/INFO] [com.sky.weaponmaster.WeaponMaster/]: Total varients loaded: 6425544
+[24Aug2025 00:34:53.784] [modloading-worker-0/INFO] [com.sky.weaponmaster.WeaponMaster/]: Total varients loaded (inc. passives + abilities): 3675411168
+[24Aug2025 00:34:54.274] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/Server2/servidor_minecraft/config/weaponmaster-common.toml is not correct. Correcting
+[24Aug2025 00:34:54.274] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Aug2025 00:34:54.275] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.maxLevel was corrected from null to its default, 10. 
+[24Aug2025 00:34:54.275] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.keepOnDeath was corrected from null to its default, true. 
+[24Aug2025 00:34:54.275] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.giveBook was corrected from null to its default, true. 
+[24Aug2025 00:34:54.275] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.expMultiplier was corrected from null to its default, 1.0. 
+[24Aug2025 00:34:54.275] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.swordDamageMin was corrected from null to its default, 7. 
+[24Aug2025 00:34:54.276] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.swordDamageMax was corrected from null to its default, 16. 
+[24Aug2025 00:34:54.276] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.swordSpeedMin was corrected from null to its default, 1.6. 
+[24Aug2025 00:34:54.276] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.swordSpeedMax was corrected from null to its default, 3.0. 
+[24Aug2025 00:34:54.276] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.swordDurabilityMin was corrected from null to its default, 250. 
+[24Aug2025 00:34:54.276] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.swordDurabilityMax was corrected from null to its default, 2000. 
+[24Aug2025 00:34:54.277] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.rapierDamageMin was corrected from null to its default, 7. 
+[24Aug2025 00:34:54.277] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.rapierDamageMax was corrected from null to its default, 16. 
+[24Aug2025 00:34:54.277] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.rapierSpeedMin was corrected from null to its default, 1.8. 
+[24Aug2025 00:34:54.277] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.rapierSpeedMax was corrected from null to its default, 4.0. 
+[24Aug2025 00:34:54.278] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.rapierDurabilityMin was corrected from null to its default, 300. 
+[24Aug2025 00:34:54.278] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.rapierDurabilityMax was corrected from null to its default, 2500. 
+[24Aug2025 00:34:54.278] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.scytheDamageMin was corrected from null to its default, 9. 
+[24Aug2025 00:34:54.278] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.scytheDamageMax was corrected from null to its default, 22. 
+[24Aug2025 00:34:54.278] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.scytheSpeedMin was corrected from null to its default, 0.8. 
+[24Aug2025 00:34:54.279] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.scytheSpeedMax was corrected from null to its default, 1.6. 
+[24Aug2025 00:34:54.279] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.scytheDurabilityMin was corrected from null to its default, 250. 
+[24Aug2025 00:34:54.279] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.scytheDurabilityMax was corrected from null to its default, 2000. 
+[24Aug2025 00:34:54.279] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.polearmDamageMin was corrected from null to its default, 9. 
+[24Aug2025 00:34:54.279] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.polearmDamageMax was corrected from null to its default, 28. 
+[24Aug2025 00:34:54.280] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.polearmSpeedMin was corrected from null to its default, 0.8. 
+[24Aug2025 00:34:54.280] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.polearmSpeedMax was corrected from null to its default, 1.6. 
+[24Aug2025 00:34:54.280] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.polearmDurabilityMin was corrected from null to its default, 300. 
+[24Aug2025 00:34:54.280] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.polearmDurabilityMax was corrected from null to its default, 2500. 
+[24Aug2025 00:34:54.403] [modloading-worker-0/WARN] [Exile Log: com.robertx22.library_of_exile.registry.ExileRegistryContainer/]: Entry of type: mmorpg_stat_condition already exists as seriazable: random_roll
+[24Aug2025 00:34:54.754] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[24Aug2025 00:34:54.792] [modloading-worker-0/WARN] [Exile Log: com.robertx22.library_of_exile.registry.ExileRegistryContainer/]: Entry of type: mmorpg_gear_rarity already exists as seriazable: common
+[24Aug2025 00:34:54.792] [modloading-worker-0/WARN] [Exile Log: com.robertx22.library_of_exile.registry.ExileRegistryContainer/]: Entry of type: mmorpg_gear_rarity already exists as seriazable: uncommon
+[24Aug2025 00:34:54.798] [modloading-worker-0/WARN] [Exile Log: com.robertx22.library_of_exile.registry.ExileRegistryContainer/]: Entry of type: library_of_exile_item_requirement already exists as seriazable: is_map
+[24Aug2025 00:34:54.865] [modloading-worker-0/INFO] [io.redspace.ironsspellbooks.IronsSpellbooks/]: Got IMC []
+[24Aug2025 00:34:55.297] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[24Aug2025 00:34:56.305] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[24Aug2025 00:34:56.501] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:crystalsmithril Expected: 1003 Got: 1036
+[24Aug2025 00:34:56.502] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:capacitorsouls Expected: 1004 Got: 1037
+[24Aug2025 00:34:56.502] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:capacitorofsouls Expected: 1005 Got: 1038
+[24Aug2025 00:34:56.503] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:crystalsvoid Expected: 1006 Got: 1039
+[24Aug2025 00:34:56.503] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:crystalsattack Expected: 1007 Got: 1040
+[24Aug2025 00:34:56.504] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:bite_1 Expected: 1008 Got: 1041
+[24Aug2025 00:34:56.504] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:acidfluid Expected: 1009 Got: 1042
+[24Aug2025 00:34:56.504] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:acidfluid_2 Expected: 1010 Got: 1043
+[24Aug2025 00:34:56.505] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:furnacev Expected: 1011 Got: 1044
+[24Aug2025 00:34:56.505] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:creatorvoid Expected: 1012 Got: 1045
+[24Aug2025 00:34:56.505] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:holespawn_1 Expected: 1013 Got: 1046
+[24Aug2025 00:34:56.505] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:smallbat Expected: 1014 Got: 1047
+[24Aug2025 00:34:56.506] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:crowdblock Expected: 1015 Got: 1048
+[24Aug2025 00:34:56.506] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:crowdd_portal Expected: 1016 Got: 1049
+[24Aug2025 00:34:56.506] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:iced_portal Expected: 1017 Got: 1050
+[24Aug2025 00:34:56.506] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:gingerblock Expected: 1018 Got: 1051
+[24Aug2025 00:34:56.506] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:chocolate Expected: 1019 Got: 1052
+[24Aug2025 00:34:56.509] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:candysp Expected: 1020 Got: 1053
+[24Aug2025 00:34:56.510] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:candysp_2 Expected: 1021 Got: 1054
+[24Aug2025 00:34:56.510] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:candysp_3 Expected: 1022 Got: 1055
+[24Aug2025 00:34:56.511] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:chocolates Expected: 1023 Got: 1056
+[24Aug2025 00:34:56.511] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:gingerblocks Expected: 1024 Got: 1057
+[24Aug2025 00:34:56.512] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:candystick Expected: 1025 Got: 1058
+[24Aug2025 00:34:56.513] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:candysblock_2 Expected: 1026 Got: 1059
+[24Aug2025 00:34:56.514] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:candysblock Expected: 1027 Got: 1060
+[24Aug2025 00:34:56.515] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:candyctickbig Expected: 1028 Got: 1061
+[24Aug2025 00:34:56.516] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:gingerblock_2 Expected: 1029 Got: 1062
+[24Aug2025 00:34:56.517] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:gingerblock_3 Expected: 1030 Got: 1063
+[24Aug2025 00:34:56.518] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:grasscold Expected: 1031 Got: 1064
+[24Aug2025 00:34:56.518] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:dirt Expected: 1032 Got: 1065
+[24Aug2025 00:34:56.518] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:snow_2 Expected: 1033 Got: 1066
+[24Aug2025 00:34:56.518] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:snowdrop Expected: 1034 Got: 1067
+[24Aug2025 00:34:56.518] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:bushsmall Expected: 1035 Got: 1068
+[24Aug2025 00:34:56.519] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:crystalsmithg Expected: 1036 Got: 1069
+[24Aug2025 00:34:56.520] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:icerion Expected: 1037 Got: 1070
+[24Aug2025 00:34:56.521] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:rabbithole Expected: 1038 Got: 1071
+[24Aug2025 00:34:56.522] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:treesmall Expected: 1039 Got: 1072
+[24Aug2025 00:34:56.522] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:stump_1 Expected: 1040 Got: 1073
+[24Aug2025 00:34:56.523] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:stonesmall Expected: 1041 Got: 1074
+[24Aug2025 00:34:56.523] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:smalltreeblock_1 Expected: 1042 Got: 1075
+[24Aug2025 00:34:56.524] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:smalltreeblock_2 Expected: 1043 Got: 1076
+[24Aug2025 00:34:56.524] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:oldmantrade Expected: 1044 Got: 1077
+[24Aug2025 00:34:56.525] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:mushroombrothblock Expected: 1045 Got: 1078
+[24Aug2025 00:34:56.525] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:squirrelblock Expected: 1046 Got: 1079
+[24Aug2025 00:34:56.525] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:owlarmorblock Expected: 1047 Got: 1080
+[24Aug2025 00:34:56.526] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:pipeblock Expected: 1048 Got: 1081
+[24Aug2025 00:34:56.527] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:stunning Expected: 1049 Got: 1082
+[24Aug2025 00:34:56.527] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:entblock Expected: 1050 Got: 1083
+[24Aug2025 00:34:56.528] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:shockwave Expected: 1051 Got: 1084
+[24Aug2025 00:34:56.528] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:gnomehome Expected: 1052 Got: 1085
+[24Aug2025 00:34:56.528] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:grasssnow Expected: 1053 Got: 1086
+[24Aug2025 00:34:56.529] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:chestbig Expected: 1054 Got: 1087
+[24Aug2025 00:34:56.529] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:chestbig_2 Expected: 1055 Got: 1088
+[24Aug2025 00:34:56.530] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:toilet Expected: 1056 Got: 1089
+[24Aug2025 00:34:56.531] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:toilet_2 Expected: 1057 Got: 1090
+[24Aug2025 00:34:56.531] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:sugar Expected: 1058 Got: 1091
+[24Aug2025 00:34:56.531] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:mine Expected: 1059 Got: 1092
+[24Aug2025 00:34:56.531] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:chestcandy Expected: 1060 Got: 1093
+[24Aug2025 00:34:56.532] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:furnacesmall Expected: 1061 Got: 1094
+[24Aug2025 00:34:56.532] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:caramelore Expected: 1062 Got: 1095
+[24Aug2025 00:34:56.532] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:chestbigwood Expected: 1063 Got: 1096
+[24Aug2025 00:34:56.532] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:oak Expected: 1064 Got: 1097
+[24Aug2025 00:34:56.532] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:oak_2 Expected: 1065 Got: 1098
+[24Aug2025 00:34:56.532] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:oak_3 Expected: 1066 Got: 1099
+[24Aug2025 00:34:56.532] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:oak_4 Expected: 1067 Got: 1100
+[24Aug2025 00:34:56.532] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: aerlunerpg:oak_5 Expected: 1068 Got: 1101
+[24Aug2025 00:34:56.533] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: weaponmaster:workstation Expected: 1097 Got: 1102
+[24Aug2025 00:34:56.536] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:crystalsmithril Expected: 1255 Got: 1835
+[24Aug2025 00:34:56.536] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:mithril Expected: 1256 Got: 1836
+[24Aug2025 00:34:56.536] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:mithrildrill Expected: 1257 Got: 1837
+[24Aug2025 00:34:56.537] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:capacitorsouls Expected: 1258 Got: 1838
+[24Aug2025 00:34:56.537] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:capacitorofsouls Expected: 1259 Got: 1839
+[24Aug2025 00:34:56.537] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:crystalsvoid Expected: 1260 Got: 1840
+[24Aug2025 00:34:56.537] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:ghost_spawn_egg Expected: 1261 Got: 1841
+[24Aug2025 00:34:56.538] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:golem_spawn_egg Expected: 1262 Got: 1842
+[24Aug2025 00:34:56.538] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:crystalsattack Expected: 1263 Got: 1843
+[24Aug2025 00:34:56.538] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:lightning Expected: 1264 Got: 1844
+[24Aug2025 00:34:56.538] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:coreofthevoid Expected: 1265 Got: 1845
+[24Aug2025 00:34:56.539] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:smallbeatleitem Expected: 1266 Got: 1846
+[24Aug2025 00:34:56.539] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:smallbeatle_spawn_egg Expected: 1267 Got: 1847
+[24Aug2025 00:34:56.539] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:eyebeatle_spawn_egg Expected: 1268 Got: 1848
+[24Aug2025 00:34:56.539] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:parasite Expected: 1269 Got: 1849
+[24Aug2025 00:34:56.540] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:foodalien_1 Expected: 1270 Got: 1850
+[24Aug2025 00:34:56.540] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:foodalien_2 Expected: 1271 Got: 1851
+[24Aug2025 00:34:56.540] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:foodalien_3 Expected: 1272 Got: 1852
+[24Aug2025 00:34:56.540] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:voidkey Expected: 1273 Got: 1853
+[24Aug2025 00:34:56.541] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:voidshards Expected: 1274 Got: 1854
+[24Aug2025 00:34:56.541] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:bite_1 Expected: 1275 Got: 1855
+[24Aug2025 00:34:56.542] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:biteitem_1 Expected: 1276 Got: 1856
+[24Aug2025 00:34:56.543] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:bedbug_spawn_egg Expected: 1277 Got: 1857
+[24Aug2025 00:34:56.544] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:centipede_spawn_egg Expected: 1278 Got: 1858
+[24Aug2025 00:34:56.544] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:disposablebait Expected: 1279 Got: 1859
+[24Aug2025 00:34:56.545] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:acid Expected: 1280 Got: 1860
+[24Aug2025 00:34:56.545] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:buttermini_spawn_egg Expected: 1281 Got: 1861
+[24Aug2025 00:34:56.546] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:butterfly_spawn_egg Expected: 1282 Got: 1862
+[24Aug2025 00:34:56.546] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:buttermini_2_spawn_egg Expected: 1283 Got: 1863
+[24Aug2025 00:34:56.547] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:warm_spawn_egg Expected: 1284 Got: 1864
+[24Aug2025 00:34:56.547] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:shoggotsmall_spawn_egg Expected: 1285 Got: 1865
+[24Aug2025 00:34:56.548] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:furnacev Expected: 1286 Got: 1866
+[24Aug2025 00:34:56.548] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:energydark Expected: 1287 Got: 1867
+[24Aug2025 00:34:56.549] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:lifeen Expected: 1288 Got: 1868
+[24Aug2025 00:34:56.549] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:creatorvoid Expected: 1289 Got: 1869
+[24Aug2025 00:34:56.549] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:holespawn_1 Expected: 1290 Got: 1870
+[24Aug2025 00:34:56.550] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:arm Expected: 1291 Got: 1871
+[24Aug2025 00:34:56.550] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:demongun Expected: 1292 Got: 1872
+[24Aug2025 00:34:56.551] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:sup Expected: 1293 Got: 1873
+[24Aug2025 00:34:56.551] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:energybigdark Expected: 1294 Got: 1874
+[24Aug2025 00:34:56.551] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:dust Expected: 1295 Got: 1875
+[24Aug2025 00:34:56.551] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:smallbat Expected: 1296 Got: 1876
+[24Aug2025 00:34:56.551] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:chip_1 Expected: 1297 Got: 1877
+[24Aug2025 00:34:56.552] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:chip_2 Expected: 1298 Got: 1878
+[24Aug2025 00:34:56.552] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:smallbatt Expected: 1299 Got: 1879
+[24Aug2025 00:34:56.552] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:crowdblock Expected: 1300 Got: 1880
+[24Aug2025 00:34:56.553] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:crowdd Expected: 1301 Got: 1881
+[24Aug2025 00:34:56.553] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:crowd_spawn_egg Expected: 1302 Got: 1882
+[24Aug2025 00:34:56.554] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:luck_1 Expected: 1303 Got: 1883
+[24Aug2025 00:34:56.554] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:iced Expected: 1304 Got: 1884
+[24Aug2025 00:34:56.555] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:gingerbreadman_spawn_egg Expected: 1305 Got: 1885
+[24Aug2025 00:34:56.555] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:gingerblock Expected: 1306 Got: 1886
+[24Aug2025 00:34:56.555] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:chocolate Expected: 1307 Got: 1887
+[24Aug2025 00:34:56.556] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:candysp Expected: 1308 Got: 1888
+[24Aug2025 00:34:56.556] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:candysp_2 Expected: 1309 Got: 1889
+[24Aug2025 00:34:56.556] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:candysp_3 Expected: 1310 Got: 1890
+[24Aug2025 00:34:56.556] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:chocolates Expected: 1311 Got: 1891
+[24Aug2025 00:34:56.556] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:gingerblocks Expected: 1312 Got: 1892
+[24Aug2025 00:34:56.557] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:candystick Expected: 1313 Got: 1893
+[24Aug2025 00:34:56.557] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:candysblock_2 Expected: 1314 Got: 1894
+[24Aug2025 00:34:56.557] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:candysblock Expected: 1315 Got: 1895
+[24Aug2025 00:34:56.558] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:candyctickbig Expected: 1316 Got: 1896
+[24Aug2025 00:34:56.559] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:gingerblock_2 Expected: 1317 Got: 1897
+[24Aug2025 00:34:56.559] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:gingerblock_3 Expected: 1318 Got: 1898
+[24Aug2025 00:34:56.560] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:grasscold Expected: 1319 Got: 1899
+[24Aug2025 00:34:56.560] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:dirt Expected: 1320 Got: 1900
+[24Aug2025 00:34:56.560] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:snow_2 Expected: 1321 Got: 1901
+[24Aug2025 00:34:56.560] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:snowdrop Expected: 1322 Got: 1902
+[24Aug2025 00:34:56.561] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:bushsmall Expected: 1323 Got: 1903
+[24Aug2025 00:34:56.561] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:stump_spawn_egg Expected: 1324 Got: 1904
+[24Aug2025 00:34:56.561] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:stump_2_spawn_egg Expected: 1325 Got: 1905
+[24Aug2025 00:34:56.562] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:crystalsmithg Expected: 1326 Got: 1906
+[24Aug2025 00:34:56.562] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:icerion Expected: 1327 Got: 1907
+[24Aug2025 00:34:56.562] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:rabbit_spawn_egg Expected: 1328 Got: 1908
+[24Aug2025 00:34:56.563] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:rabbithole Expected: 1329 Got: 1909
+[24Aug2025 00:34:56.563] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:snowman_spawn_egg Expected: 1330 Got: 1910
+[24Aug2025 00:34:56.563] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:icecrystal Expected: 1331 Got: 1911
+[24Aug2025 00:34:56.563] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:treesmall Expected: 1332 Got: 1912
+[24Aug2025 00:34:56.564] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:stump_1 Expected: 1333 Got: 1913
+[24Aug2025 00:34:56.564] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:stonesmall Expected: 1334 Got: 1914
+[24Aug2025 00:34:56.564] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:smalltreeblock_1 Expected: 1335 Got: 1915
+[24Aug2025 00:34:56.565] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:smalltreeblock_2 Expected: 1336 Got: 1916
+[24Aug2025 00:34:56.566] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:oldmantrade Expected: 1337 Got: 1917
+[24Aug2025 00:34:56.566] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:icerod Expected: 1338 Got: 1918
+[24Aug2025 00:34:56.567] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:icerodparitem Expected: 1339 Got: 1919
+[24Aug2025 00:34:56.567] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:bookice_0 Expected: 1340 Got: 1920
+[24Aug2025 00:34:56.568] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:bookice_1 Expected: 1341 Got: 1921
+[24Aug2025 00:34:56.569] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:icebookd Expected: 1342 Got: 1922
+[24Aug2025 00:34:56.569] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:pumphead_helmet Expected: 1343 Got: 1923
+[24Aug2025 00:34:56.569] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:piercingfear Expected: 1344 Got: 1924
+[24Aug2025 00:34:56.569] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:candystick_1 Expected: 1345 Got: 1925
+[24Aug2025 00:34:56.569] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:pipe_helmet Expected: 1346 Got: 1926
+[24Aug2025 00:34:56.570] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:squirrel Expected: 1347 Got: 1927
+[24Aug2025 00:34:56.570] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:mushroombrothblock Expected: 1348 Got: 1928
+[24Aug2025 00:34:56.570] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:mushroombrothitem Expected: 1349 Got: 1929
+[24Aug2025 00:34:56.571] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:squirrelblock Expected: 1350 Got: 1930
+[24Aug2025 00:34:56.571] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:owlarmor_helmet Expected: 1351 Got: 1931
+[24Aug2025 00:34:56.572] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:owlarmorblock Expected: 1352 Got: 1932
+[24Aug2025 00:34:56.572] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:pipeblock Expected: 1353 Got: 1933
+[24Aug2025 00:34:56.572] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:snowman_2_spawn_egg Expected: 1354 Got: 1934
+[24Aug2025 00:34:56.572] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:snowman_3_spawn_egg Expected: 1355 Got: 1935
+[24Aug2025 00:34:56.572] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:cudgel Expected: 1356 Got: 1936
+[24Aug2025 00:34:56.572] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:stunning Expected: 1357 Got: 1937
+[24Aug2025 00:34:56.572] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:firemetsmall Expected: 1358 Got: 1938
+[24Aug2025 00:34:56.572] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:boar_spawn_egg Expected: 1359 Got: 1939
+[24Aug2025 00:34:56.573] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:boarbig_spawn_egg Expected: 1360 Got: 1940
+[24Aug2025 00:34:56.573] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:cudgelragemetsmall Expected: 1361 Got: 1941
+[24Aug2025 00:34:56.573] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:ragemetsmall Expected: 1362 Got: 1942
+[24Aug2025 00:34:56.573] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:deerbig_spawn_egg Expected: 1363 Got: 1943
+[24Aug2025 00:34:56.573] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:furarmor_chestplate Expected: 1364 Got: 1944
+[24Aug2025 00:34:56.573] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:furarmor_leggings Expected: 1365 Got: 1945
+[24Aug2025 00:34:56.573] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:furarmor_boots Expected: 1366 Got: 1946
+[24Aug2025 00:34:56.573] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:gingerbreadmann Expected: 1367 Got: 1947
+[24Aug2025 00:34:56.573] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:giftsmal Expected: 1368 Got: 1948
+[24Aug2025 00:34:56.574] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:woodshield Expected: 1369 Got: 1949
+[24Aug2025 00:34:56.574] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:deerbig_2_spawn_egg Expected: 1370 Got: 1950
+[24Aug2025 00:34:56.574] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:scrollfireice Expected: 1371 Got: 1951
+[24Aug2025 00:34:56.574] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:icefireitem Expected: 1372 Got: 1952
+[24Aug2025 00:34:56.574] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:scrollicsh Expected: 1373 Got: 1953
+[24Aug2025 00:34:56.574] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:ent_spawn_egg Expected: 1374 Got: 1954
+[24Aug2025 00:34:56.574] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:entblock Expected: 1375 Got: 1955
+[24Aug2025 00:34:56.574] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:boarboss_spawn_egg Expected: 1376 Got: 1956
+[24Aug2025 00:34:56.574] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:shockwave Expected: 1377 Got: 1957
+[24Aug2025 00:34:56.574] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:boar_3_spawn_egg Expected: 1378 Got: 1958
+[24Aug2025 00:34:56.574] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:icesword Expected: 1379 Got: 1959
+[24Aug2025 00:34:56.575] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:icemet Expected: 1380 Got: 1960
+[24Aug2025 00:34:56.575] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:leather Expected: 1381 Got: 1961
+[24Aug2025 00:34:56.575] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:trophyboar Expected: 1382 Got: 1962
+[24Aug2025 00:34:56.575] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:trophyeyes Expected: 1383 Got: 1963
+[24Aug2025 00:34:56.575] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:trophyrabbit Expected: 1384 Got: 1964
+[24Aug2025 00:34:56.575] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:boarhead Expected: 1385 Got: 1965
+[24Aug2025 00:34:56.575] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:rabbitmount_spawn_egg Expected: 1386 Got: 1966
+[24Aug2025 00:34:56.575] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:rabpetitem Expected: 1387 Got: 1967
+[24Aug2025 00:34:56.576] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:test_spawn_egg Expected: 1388 Got: 1968
+[24Aug2025 00:34:56.576] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:gnomehome Expected: 1389 Got: 1969
+[24Aug2025 00:34:56.576] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:grasssnow Expected: 1390 Got: 1970
+[24Aug2025 00:34:56.576] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:goblin_spawn_egg Expected: 1391 Got: 1971
+[24Aug2025 00:34:56.576] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:gobliny_spawn_egg Expected: 1392 Got: 1972
+[24Aug2025 00:34:56.576] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:chestbig Expected: 1393 Got: 1973
+[24Aug2025 00:34:56.576] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:chestbig_2 Expected: 1394 Got: 1974
+[24Aug2025 00:34:56.577] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:evilgnome_spawn_egg Expected: 1395 Got: 1975
+[24Aug2025 00:34:56.577] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:evilgnome_2_spawn_egg Expected: 1396 Got: 1976
+[24Aug2025 00:34:56.577] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:toilet Expected: 1397 Got: 1977
+[24Aug2025 00:34:56.577] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:toilet_2 Expected: 1398 Got: 1978
+[24Aug2025 00:34:56.577] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:potcandy Expected: 1399 Got: 1979
+[24Aug2025 00:34:56.577] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:caramel Expected: 1400 Got: 1980
+[24Aug2025 00:34:56.577] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:strangecandy Expected: 1401 Got: 1981
+[24Aug2025 00:34:56.579] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:hatcc_helmet Expected: 1402 Got: 1982
+[24Aug2025 00:34:56.579] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:new_yearhat_helmet Expected: 1403 Got: 1983
+[24Aug2025 00:34:56.579] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:gnomehead Expected: 1404 Got: 1984
+[24Aug2025 00:34:56.580] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:sugar Expected: 1405 Got: 1985
+[24Aug2025 00:34:56.580] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:bearcandy_spawn_egg Expected: 1406 Got: 1986
+[24Aug2025 00:34:56.580] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:bearcandy_2_spawn_egg Expected: 1407 Got: 1987
+[24Aug2025 00:34:56.580] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:bearcandy_3_spawn_egg Expected: 1408 Got: 1988
+[24Aug2025 00:34:56.580] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:bearcandy_4_spawn_egg Expected: 1409 Got: 1989
+[24Aug2025 00:34:56.580] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:mine Expected: 1410 Got: 1990
+[24Aug2025 00:34:56.580] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:recipeman Expected: 1411 Got: 1991
+[24Aug2025 00:34:56.581] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:recipebear Expected: 1412 Got: 1992
+[24Aug2025 00:34:56.581] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:chestcandy Expected: 1413 Got: 1993
+[24Aug2025 00:34:56.581] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:giftblue Expected: 1414 Got: 1994
+[24Aug2025 00:34:56.581] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:filgist Expected: 1415 Got: 1995
+[24Aug2025 00:34:56.581] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:cookie_spawn_egg Expected: 1416 Got: 1996
+[24Aug2025 00:34:56.582] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:cookie_2_spawn_egg Expected: 1417 Got: 1997
+[24Aug2025 00:34:56.582] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:coockie Expected: 1418 Got: 1998
+[24Aug2025 00:34:56.582] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:coockietame Expected: 1419 Got: 1999
+[24Aug2025 00:34:56.582] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:coockierecipe Expected: 1420 Got: 2000
+[24Aug2025 00:34:56.582] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:bearcandytame Expected: 1421 Got: 2001
+[24Aug2025 00:34:56.582] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:bearcandyitem Expected: 1422 Got: 2002
+[24Aug2025 00:34:56.582] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:gingerbreadmanitem Expected: 1423 Got: 2003
+[24Aug2025 00:34:56.582] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:gingerbreadmanitemtame Expected: 1424 Got: 2004
+[24Aug2025 00:34:56.583] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:furnacesmall Expected: 1425 Got: 2005
+[24Aug2025 00:34:56.583] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:gingirmanevil_spawn_egg Expected: 1426 Got: 2006
+[24Aug2025 00:34:56.583] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:gingirmanevilred_spawn_egg Expected: 1427 Got: 2007
+[24Aug2025 00:34:56.583] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:christmastree_spawn_egg Expected: 1428 Got: 2008
+[24Aug2025 00:34:56.583] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:cannongnome_spawn_egg Expected: 1429 Got: 2009
+[24Aug2025 00:34:56.586] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:ctp Expected: 1430 Got: 2010
+[24Aug2025 00:34:56.586] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:bookgui Expected: 1431 Got: 2011
+[24Aug2025 00:34:56.586] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:robotgnome_spawn_egg Expected: 1432 Got: 2012
+[24Aug2025 00:34:56.586] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:tp Expected: 1433 Got: 2013
+[24Aug2025 00:34:56.586] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:portalitem Expected: 1434 Got: 2014
+[24Aug2025 00:34:56.586] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:caramelore Expected: 1435 Got: 2015
+[24Aug2025 00:34:56.586] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:donut_spawn_egg Expected: 1436 Got: 2016
+[24Aug2025 00:34:56.587] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:house_spawn_egg Expected: 1437 Got: 2017
+[24Aug2025 00:34:56.587] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:chestbigwood Expected: 1438 Got: 2018
+[24Aug2025 00:34:56.587] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:oak Expected: 1439 Got: 2019
+[24Aug2025 00:34:56.587] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:oak_2 Expected: 1440 Got: 2020
+[24Aug2025 00:34:56.587] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:oak_3 Expected: 1441 Got: 2021
+[24Aug2025 00:34:56.587] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:oak_4 Expected: 1442 Got: 2022
+[24Aug2025 00:34:56.587] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:oak_5 Expected: 1443 Got: 2023
+[24Aug2025 00:34:56.587] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:deerevil_spawn_egg Expected: 1444 Got: 2024
+[24Aug2025 00:34:56.588] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:zombieghost_spawn_egg Expected: 1445 Got: 2025
+[24Aug2025 00:34:56.588] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:magicmetsmall Expected: 1446 Got: 2026
+[24Aug2025 00:34:56.588] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:magicparitem Expected: 1447 Got: 2027
+[24Aug2025 00:34:56.588] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:icerodmagicmet Expected: 1448 Got: 2028
+[24Aug2025 00:34:56.588] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:icerodfiremet Expected: 1449 Got: 2029
+[24Aug2025 00:34:56.590] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:cthulhu_spawn_egg Expected: 1450 Got: 2030
+[24Aug2025 00:34:56.591] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:steve_spawn_egg Expected: 1451 Got: 2031
+[24Aug2025 00:34:56.591] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:tryrtyry Expected: 1452 Got: 2032
+[24Aug2025 00:34:56.591] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: aerlunerpg:laser_spawn_egg Expected: 1453 Got: 2033
+[24Aug2025 00:34:56.591] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: weaponmaster:workstation Expected: 2027 Got: 2034
+[24Aug2025 00:34:56.591] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: weaponmaster:wm_broadsword Expected: 2028 Got: 2035
+[24Aug2025 00:34:56.591] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: weaponmaster:wm_rapier Expected: 2029 Got: 2036
+[24Aug2025 00:34:56.591] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: weaponmaster:wm_broadswordlarge Expected: 2030 Got: 2037
+[24Aug2025 00:34:56.591] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: weaponmaster:wm_rapierlarge Expected: 2031 Got: 2038
+[24Aug2025 00:34:56.592] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: weaponmaster:tutorialbook Expected: 2032 Got: 2039
+[24Aug2025 00:34:56.592] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: weaponmaster:weaponkit Expected: 2033 Got: 2040
+[24Aug2025 00:34:56.592] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: weaponmaster:taglockkit Expected: 2034 Got: 2041
+[24Aug2025 00:34:56.592] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: aerlunerpg:parasiteef Expected: 0 Got: 67
+[24Aug2025 00:34:56.592] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: aerlunerpg:cold Expected: 34 Got: 68
+[24Aug2025 00:34:56.592] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: aerlunerpg:iceshield Expected: 35 Got: 69
+[24Aug2025 00:34:56.592] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: aerlunerpg:stunninggef Expected: 36 Got: 70
+[24Aug2025 00:34:56.593] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: aerlunerpg:scrollicshef Expected: 37 Got: 71
+[24Aug2025 00:34:56.593] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: aerlunerpg:boarhitp Expected: 38 Got: 72
+[24Aug2025 00:34:56.593] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: aerlunerpg:cannonpoition Expected: 39 Got: 73
+[24Aug2025 00:34:56.593] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: aerlunerpg:housepotiont Expected: 40 Got: 74
+[24Aug2025 00:34:56.594] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: aerlunerpg:ghostdie Expected: 1474 Got: 1605
+[24Aug2025 00:34:56.594] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: aerlunerpg:ghosthit Expected: 1475 Got: 1606
+[24Aug2025 00:34:56.594] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: aerlunerpg:golem_hit Expected: 1476 Got: 1607
+[24Aug2025 00:34:56.594] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: aerlunerpg:walkbig Expected: 1477 Got: 1608
+[24Aug2025 00:34:56.594] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: aerlunerpg:smallbeatle_laser Expected: 1478 Got: 1609
+[24Aug2025 00:34:56.594] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: aerlunerpg:spawn Expected: 1479 Got: 1610
+[24Aug2025 00:34:56.594] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: aerlunerpg:air Expected: 1480 Got: 1611
+[24Aug2025 00:34:56.595] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: aerlunerpg:armitem Expected: 1481 Got: 1612
+[24Aug2025 00:34:56.595] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: aerlunerpg:gun Expected: 1482 Got: 1613
+[24Aug2025 00:34:56.595] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: aerlunerpg:gun2 Expected: 1483 Got: 1614
+[24Aug2025 00:34:56.595] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: aerlunerpg:money Expected: 1484 Got: 1615
+[24Aug2025 00:34:56.595] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: aerlunerpg:ent_big1 Expected: 1485 Got: 1616
+[24Aug2025 00:34:56.595] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: aerlunerpg:ent_big2 Expected: 1486 Got: 1617
+[24Aug2025 00:34:56.597] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: aerlunerpg:entbigdie Expected: 1487 Got: 1618
+[24Aug2025 00:34:56.597] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: aerlunerpg:gui Expected: 1488 Got: 1619
+[24Aug2025 00:34:56.598] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: aerlunerpg:entsmall Expected: 1489 Got: 1620
+[24Aug2025 00:34:56.599] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: aerlunerpg:ent_hirt Expected: 1490 Got: 1621
+[24Aug2025 00:34:56.599] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: aerlunerpg:icerod_shoot Expected: 1491 Got: 1622
+[24Aug2025 00:34:56.600] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: aerlunerpg:freeze Expected: 1492 Got: 1623
+[24Aug2025 00:34:56.600] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: aerlunerpg:scrollcast Expected: 1493 Got: 1624
+[24Aug2025 00:34:56.601] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: aerlunerpg:darkmagic Expected: 1494 Got: 1625
+[24Aug2025 00:34:56.601] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: aerlunerpg:deerhit Expected: 1495 Got: 1626
+[24Aug2025 00:34:56.601] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: aerlunerpg:fireball Expected: 1496 Got: 1627
+[24Aug2025 00:34:56.602] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: aerlunerpg:ent3 Expected: 1497 Got: 1628
+[24Aug2025 00:34:56.602] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: aerlunerpg:bighit Expected: 1498 Got: 1629
+[24Aug2025 00:34:56.603] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: aerlunerpg:toilet Expected: 1499 Got: 1630
+[24Aug2025 00:34:56.603] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: aerlunerpg:gnomehit Expected: 1500 Got: 1631
+[24Aug2025 00:34:56.604] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: aerlunerpg:cannon Expected: 1501 Got: 1632
+[24Aug2025 00:34:56.604] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: aerlunerpg:househit Expected: 1502 Got: 1633
+[24Aug2025 00:34:56.604] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: aerlunerpg:demonhit Expected: 1503 Got: 1634
+[24Aug2025 00:34:56.605] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: aerlunerpg:demonhit2 Expected: 1504 Got: 1635
+[24Aug2025 00:34:56.605] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: aerlunerpg:ossfight Expected: 1505 Got: 1636
+[24Aug2025 00:34:56.605] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: aerlunerpg:bosses Expected: 1506 Got: 1637
+[24Aug2025 00:34:56.606] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: aerlunerpg:epic Expected: 1507 Got: 1638
+[24Aug2025 00:34:56.606] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: aerlunerpg:epic2 Expected: 1508 Got: 1639
+[24Aug2025 00:34:56.606] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: aerlunerpg:speak Expected: 1509 Got: 1640
+[24Aug2025 00:34:56.607] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: aerlunerpg:speak2 Expected: 1510 Got: 1641
+[24Aug2025 00:34:56.608] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:ghost Expected: 124 Got: 207
+[24Aug2025 00:34:56.609] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:golem Expected: 125 Got: 208
+[24Aug2025 00:34:56.609] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:projectile_golemproj Expected: 126 Got: 209
+[24Aug2025 00:34:56.610] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:projectile_smallbeatleprojectile Expected: 127 Got: 210
+[24Aug2025 00:34:56.611] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:smallbeatle Expected: 128 Got: 211
+[24Aug2025 00:34:56.611] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:eyebeatle Expected: 129 Got: 212
+[24Aug2025 00:34:56.611] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:bedbug Expected: 130 Got: 213
+[24Aug2025 00:34:56.611] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:centipede Expected: 131 Got: 214
+[24Aug2025 00:34:56.611] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:projectile_acidproj Expected: 132 Got: 215
+[24Aug2025 00:34:56.611] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:projectile_acidproj_2 Expected: 133 Got: 216
+[24Aug2025 00:34:56.612] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:buttermini Expected: 134 Got: 217
+[24Aug2025 00:34:56.612] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:butterfly Expected: 135 Got: 218
+[24Aug2025 00:34:56.612] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:buttermini_2 Expected: 136 Got: 219
+[24Aug2025 00:34:56.612] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:warm Expected: 137 Got: 220
+[24Aug2025 00:34:56.612] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:shoggotsmall Expected: 138 Got: 221
+[24Aug2025 00:34:56.612] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:projectile_armp Expected: 139 Got: 222
+[24Aug2025 00:34:56.612] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:projectile_demonic_headp Expected: 140 Got: 223
+[24Aug2025 00:34:56.613] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:projectile_armp_2 Expected: 141 Got: 224
+[24Aug2025 00:34:56.613] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:crowd Expected: 142 Got: 225
+[24Aug2025 00:34:56.613] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:gingerbreadman Expected: 143 Got: 226
+[24Aug2025 00:34:56.613] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:stump Expected: 144 Got: 227
+[24Aug2025 00:34:56.613] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:stump_2 Expected: 145 Got: 228
+[24Aug2025 00:34:56.613] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:rabbit Expected: 146 Got: 229
+[24Aug2025 00:34:56.613] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:snowman Expected: 147 Got: 230
+[24Aug2025 00:34:56.613] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:projectile_icerodp Expected: 148 Got: 231
+[24Aug2025 00:34:56.614] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:projectile_froozy Expected: 149 Got: 232
+[24Aug2025 00:34:56.614] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:projectile_pumpproj Expected: 150 Got: 233
+[24Aug2025 00:34:56.614] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:snowman_2 Expected: 151 Got: 234
+[24Aug2025 00:34:56.614] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:snowman_3 Expected: 152 Got: 235
+[24Aug2025 00:34:56.614] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:boar Expected: 153 Got: 236
+[24Aug2025 00:34:56.614] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:boarbig Expected: 154 Got: 237
+[24Aug2025 00:34:56.614] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:deerbig Expected: 155 Got: 238
+[24Aug2025 00:34:56.614] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:deerbig_2 Expected: 156 Got: 239
+[24Aug2025 00:34:56.614] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:projectile_icefireproj Expected: 157 Got: 240
+[24Aug2025 00:34:56.615] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:projectile_entp Expected: 158 Got: 241
+[24Aug2025 00:34:56.615] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:entpentity Expected: 159 Got: 242
+[24Aug2025 00:34:56.615] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:ent Expected: 160 Got: 243
+[24Aug2025 00:34:56.615] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:boarboss Expected: 161 Got: 244
+[24Aug2025 00:34:56.615] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:projectile_boarbosspr Expected: 162 Got: 245
+[24Aug2025 00:34:56.615] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:boar_3 Expected: 163 Got: 246
+[24Aug2025 00:34:56.615] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:rabbitmount Expected: 164 Got: 247
+[24Aug2025 00:34:56.616] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:test Expected: 165 Got: 248
+[24Aug2025 00:34:56.616] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:goblin Expected: 166 Got: 249
+[24Aug2025 00:34:56.616] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:gobliny Expected: 167 Got: 250
+[24Aug2025 00:34:56.616] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:evilgnome Expected: 168 Got: 251
+[24Aug2025 00:34:56.616] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:evilgnome_2 Expected: 169 Got: 252
+[24Aug2025 00:34:56.618] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:bearcandy Expected: 170 Got: 253
+[24Aug2025 00:34:56.618] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:bearcandy_2 Expected: 171 Got: 254
+[24Aug2025 00:34:56.618] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:bearcandy_3 Expected: 172 Got: 255
+[24Aug2025 00:34:56.618] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:bearcandy_4 Expected: 173 Got: 256
+[24Aug2025 00:34:56.619] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:cookie Expected: 174 Got: 257
+[24Aug2025 00:34:56.619] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:cookie_2 Expected: 175 Got: 258
+[24Aug2025 00:34:56.619] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:gingirmanevil Expected: 176 Got: 259
+[24Aug2025 00:34:56.619] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:gingirmanevilred Expected: 177 Got: 260
+[24Aug2025 00:34:56.619] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:christmastree Expected: 178 Got: 261
+[24Aug2025 00:34:56.619] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:projectile_cannonp Expected: 179 Got: 262
+[24Aug2025 00:34:56.619] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:cannongnome Expected: 180 Got: 263
+[24Aug2025 00:34:56.619] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:projectile_elkap Expected: 181 Got: 264
+[24Aug2025 00:34:56.620] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:robotgnome Expected: 182 Got: 265
+[24Aug2025 00:34:56.620] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:donut Expected: 183 Got: 266
+[24Aug2025 00:34:56.620] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:house Expected: 184 Got: 267
+[24Aug2025 00:34:56.620] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:deerevil Expected: 185 Got: 268
+[24Aug2025 00:34:56.620] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:zombieghost Expected: 186 Got: 269
+[24Aug2025 00:34:56.620] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:projectile_magicp Expected: 187 Got: 270
+[24Aug2025 00:34:56.620] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:projectile_icerodfire Expected: 188 Got: 271
+[24Aug2025 00:34:56.621] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:cthulhu Expected: 189 Got: 272
+[24Aug2025 00:34:56.621] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:steve Expected: 190 Got: 273
+[24Aug2025 00:34:56.621] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: aerlunerpg:laser Expected: 191 Got: 274
+[24Aug2025 00:34:57.155] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Server2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23123!/assets/.mcassetsroot' uses unexpected schema
+[24Aug2025 00:34:57.155] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Server2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23123!/data/.mcassetsroot' uses unexpected schema
+[24Aug2025 00:34:59.419] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe aerlunerpg:bait_22
+com.google.gson.JsonSyntaxException: Unknown item 'aerlunerpg:deleted_mod_element'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23119!/:?]
-	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23119!/:?]
-	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.7-universal.jar%23124!/:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.7-universal.jar%23124!/:?]
-	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23119!/:?]
-	at net.minecraft.world.item.crafting.ShapedRecipe.m_44210_(ShapedRecipe.java:278) ~[server-1.20.1-20230612.114412-srg.jar%23119!/:?]
-	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:306) ~[server-1.20.1-20230612.114412-srg.jar%23119!/:?]
-	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23119!/:?]
-	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23124!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23119!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23119!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23119!/:?]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23119!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.7-universal.jar%23128!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.7-universal.jar%23128!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_44210_(ShapedRecipe.java:278) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:306) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23128!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
 	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
 	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23119!/:?]
-	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23119!/:?]
-	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23119!/:?]
-	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23119!/:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -68,55 +487,97 @@ com.google.gson.JsonSyntaxException: Unknown item 'irons_spellbooks:mithril_ingo
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[24Aug2025 00:28:59.188] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[24Aug2025 00:28:59.297] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1299 advancements
-[24Aug2025 00:28:59.302] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio slots
-[24Aug2025 00:28:59.305] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[24Aug2025 00:29:00.520] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[24Aug2025 00:29:00.523] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[24Aug2025 00:29:00.524] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[24Aug2025 00:29:00.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[24Aug2025 00:29:00.691] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[24Aug2025 00:29:00.719] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[24Aug2025 00:29:00.803] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[24Aug2025 00:29:00.803] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[24Aug2025 00:29:00.804] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[24Aug2025 00:29:00.804] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[24Aug2025 00:29:00.859] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/mine_and_slash-server.toml is not correct. Correcting
-[24Aug2025 00:29:00.862] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.ENTITY_SUMMON_BLACKLIST was corrected from [minecraft:allay, minecraft:armor_stand] to its default, [minecraft:allay, minecraft:armor_stand]. 
-[24Aug2025 00:29:00.865] [Thread-1/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/Server2/servidor_minecraft/./world/serverconfig/mine_and_slash-server.toml is not correct. Correcting
-[24Aug2025 00:29:00.913] [Server thread/INFO] [Exile Log: com.robertx22.library_of_exile.dimension.WipeDimensionFeature/]: Wiping dimension folder: /workspaces/Server2/servidor_minecraft/world/dimensions/dungeon_realm/dungeon - If this is a dungeon_realm:dungeon dimension folder, then the feature is working correctly. Report if it tries deleting something else though!
-[24Aug2025 00:29:00.914] [Server thread/INFO] [Exile Log: com.robertx22.library_of_exile.dimension.WipeDimensionFeature/]: These dimensions are meant to be wiped on server boot to remain infinite.
-[24Aug2025 00:29:00.930] [Server thread/INFO] [Exile Log: com.robertx22.library_of_exile.dimension.WipeDimensionFeature/]: Wiping dimension folder: /workspaces/Server2/servidor_minecraft/world/dimensions/the_harvest/harvest - If this is a the_harvest:harvest dimension folder, then the feature is working correctly. Report if it tries deleting something else though!
-[24Aug2025 00:29:00.931] [Server thread/INFO] [Exile Log: com.robertx22.library_of_exile.dimension.WipeDimensionFeature/]: These dimensions are meant to be wiped on server boot to remain infinite.
-[24Aug2025 00:29:00.953] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[24Aug2025 00:29:03.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[24Aug2025 00:29:07.220] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24Aug2025 00:29:07.222] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24Aug2025 00:29:07.225] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24Aug2025 00:29:07.226] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24Aug2025 00:29:07.227] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24Aug2025 00:29:07.233] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24Aug2025 00:29:07.234] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24Aug2025 00:29:07.396] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24Aug2025 00:29:07.896] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 37%
-[24Aug2025 00:29:08.508] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4612 ms
-[24Aug2025 00:29:08.509] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (7.686s)! For help, type "help"
-[24Aug2025 00:29:08.546] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[24Aug2025 00:29:30.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[24Aug2025 00:29:30.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[24Aug2025 00:29:30.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[24Aug2025 00:29:30.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[24Aug2025 00:29:31.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[24Aug2025 00:29:32.126] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/mmorpg:dungeon
-[24Aug2025 00:29:32.128] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_harvest:harvest
-[24Aug2025 00:29:32.128] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[24Aug2025 00:29:32.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dungeon_realm:dungeon
-[24Aug2025 00:29:32.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[24Aug2025 00:29:32.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[24Aug2025 00:29:32.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dungeon): All chunks are saved
-[24Aug2025 00:29:32.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (harvest): All chunks are saved
-[24Aug2025 00:29:32.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[24Aug2025 00:29:32.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dungeon): All chunks are saved
-[24Aug2025 00:29:32.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[24Aug2025 00:29:32.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[24Aug2025 00:34:59.453] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe irons_spellbooks:curios/concentration_amulet
+com.google.gson.JsonSyntaxException: Unknown item 'irons_spellbooks:mithril_ingot'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.7-universal.jar%23128!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.7-universal.jar%23128!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_44210_(ShapedRecipe.java:278) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:306) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23128!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23123!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[24Aug2025 00:34:59.470] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[24Aug2025 00:34:59.596] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1301 advancements
+[24Aug2025 00:35:00.317] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio slots
+[24Aug2025 00:35:00.321] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[24Aug2025 00:35:00.808] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[24Aug2025 00:35:00.809] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[24Aug2025 00:35:00.809] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[24Aug2025 00:35:00.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[24Aug2025 00:35:00.971] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[24Aug2025 00:35:00.996] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[24Aug2025 00:35:01.079] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[24Aug2025 00:35:01.079] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[24Aug2025 00:35:01.079] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[24Aug2025 00:35:01.079] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[24Aug2025 00:35:01.140] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/mine_and_slash-server.toml is not correct. Correcting
+[24Aug2025 00:35:01.141] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.ENTITY_SUMMON_BLACKLIST was corrected from [minecraft:allay, minecraft:armor_stand] to its default, [minecraft:allay, minecraft:armor_stand]. 
+[24Aug2025 00:35:01.207] [Server thread/INFO] [Exile Log: com.robertx22.library_of_exile.dimension.WipeDimensionFeature/]: Wiping dimension folder: /workspaces/Server2/servidor_minecraft/world/dimensions/the_harvest/harvest - If this is a the_harvest:harvest dimension folder, then the feature is working correctly. Report if it tries deleting something else though!
+[24Aug2025 00:35:01.208] [Server thread/INFO] [Exile Log: com.robertx22.library_of_exile.dimension.WipeDimensionFeature/]: These dimensions are meant to be wiped on server boot to remain infinite.
+[24Aug2025 00:35:01.228] [Server thread/INFO] [Exile Log: com.robertx22.library_of_exile.dimension.WipeDimensionFeature/]: Wiping dimension folder: /workspaces/Server2/servidor_minecraft/world/dimensions/dungeon_realm/dungeon - If this is a dungeon_realm:dungeon dimension folder, then the feature is working correctly. Report if it tries deleting something else though!
+[24Aug2025 00:35:01.228] [Server thread/INFO] [Exile Log: com.robertx22.library_of_exile.dimension.WipeDimensionFeature/]: These dimensions are meant to be wiped on server boot to remain infinite.
+[24Aug2025 00:35:01.245] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[24Aug2025 00:35:04.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[24Aug2025 00:35:07.574] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24Aug2025 00:35:07.576] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24Aug2025 00:35:07.577] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24Aug2025 00:35:07.578] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24Aug2025 00:35:07.578] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24Aug2025 00:35:07.579] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24Aug2025 00:35:07.579] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24Aug2025 00:35:07.761] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24Aug2025 00:35:08.261] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 25%
+[24Aug2025 00:35:08.798] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 91%
+[24Aug2025 00:35:08.997] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4737 ms
+[24Aug2025 00:35:08.998] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (7.901s)! For help, type "help"
+[24Aug2025 00:35:09.057] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[24Aug2025 00:35:31.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[24Aug2025 00:35:31.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[24Aug2025 00:35:31.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[24Aug2025 00:35:31.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[24Aug2025 00:35:32.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[24Aug2025 00:35:33.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_harvest:harvest
+[24Aug2025 00:35:33.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/aerlunerpg:crowdd
+[24Aug2025 00:35:33.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dungeon_realm:dungeon
+[24Aug2025 00:35:33.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/aerlunerpg:iced
+[24Aug2025 00:35:33.279] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[24Aug2025 00:35:33.281] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[24Aug2025 00:35:33.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/mmorpg:dungeon
+[24Aug2025 00:35:33.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[24Aug2025 00:35:33.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (harvest): All chunks are saved
+[24Aug2025 00:35:33.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (crowdd): All chunks are saved
+[24Aug2025 00:35:33.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dungeon): All chunks are saved
+[24Aug2025 00:35:33.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (iced): All chunks are saved
+[24Aug2025 00:35:33.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[24Aug2025 00:35:33.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[24Aug2025 00:35:33.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dungeon): All chunks are saved
+[24Aug2025 00:35:33.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
