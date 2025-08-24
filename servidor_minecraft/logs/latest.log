@@ -1,309 +1,38 @@
-[24Aug2025 00:38:57.846] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[24Aug2025 00:38:57.849] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
-[24Aug2025 00:38:58.141] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[24Aug2025 00:38:58.192] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Server2/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[24Aug2025 00:38:58.462] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server2/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[24Aug2025 00:38:58.464] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server2/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[24Aug2025 00:38:58.467] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server2/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[24Aug2025 00:38:58.469] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server2/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[24Aug2025 00:38:58.661] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
-[24Aug2025 00:39:00.390] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[24Aug2025 00:39:00.489] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.robertx22.library_of_exile.MixinConnector]
-[24Aug2025 00:39:00.490] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.robertx22.mmorpg.MixinConnector]
-[24Aug2025 00:39:00.495] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[24Aug2025 00:39:00.832] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
-[24Aug2025 00:39:00.833] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
-[24Aug2025 00:39:00.834] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found relics.mixins.json:ScreenMixin
-[24Aug2025 00:39:01.228] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/layers/ItemInHandLayer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.layers.ItemInHandLayer)
-[24Aug2025 00:39:01.229] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.layers.ItemInHandLayer was not found mmorpg-mixins.json:PlayerAnimMixin
-[24Aug2025 00:39:07.555] [modloading-worker-0/INFO] [Exile Log: com.robertx22.library_of_exile.registry.helpers.OrderedModConstructor/]: Mod Constructor Registered : library_of_exile
-[24Aug2025 00:39:07.648] [modloading-worker-0/INFO] [Exile Log: com.robertx22.library_of_exile.registry.helpers.OrderedModConstructor/]: Mod Constructor Registered : the_harvest
-[24Aug2025 00:39:08.026] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[24Aug2025 00:39:08.064] [modloading-worker-0/INFO] [Exile Log: com.robertx22.library_of_exile.registry.helpers.OrderedModConstructor/]: Mod Constructor Registered : mmorpg
-[24Aug2025 00:39:08.297] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[24Aug2025 00:39:08.297] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[24Aug2025 00:39:08.504] [modloading-worker-0/INFO] [Exile Log: com.robertx22.library_of_exile.registry.helpers.OrderedModConstructor/]: Mod Constructor Registered : dungeon_realm
-[24Aug2025 00:39:08.751] [modloading-worker-0/INFO] [dungeon_realm/]: Dungeon Realm loaded.
-[24Aug2025 00:39:19.836] [modloading-worker-0/INFO] [com.sky.weaponmaster.WeaponMaster/]: Total varients loaded: 6425544
-[24Aug2025 00:39:19.837] [modloading-worker-0/INFO] [com.sky.weaponmaster.WeaponMaster/]: Total varients loaded (inc. passives + abilities): 3675411168
-[24Aug2025 00:39:20.621] [modloading-worker-0/WARN] [Exile Log: com.robertx22.library_of_exile.registry.ExileRegistryContainer/]: Entry of type: mmorpg_stat_condition already exists as seriazable: random_roll
-[24Aug2025 00:39:20.937] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[24Aug2025 00:39:21.091] [modloading-worker-0/WARN] [Exile Log: com.robertx22.library_of_exile.registry.ExileRegistryContainer/]: Entry of type: mmorpg_gear_rarity already exists as seriazable: common
-[24Aug2025 00:39:21.092] [modloading-worker-0/WARN] [Exile Log: com.robertx22.library_of_exile.registry.ExileRegistryContainer/]: Entry of type: mmorpg_gear_rarity already exists as seriazable: uncommon
-[24Aug2025 00:39:21.097] [modloading-worker-0/WARN] [Exile Log: com.robertx22.library_of_exile.registry.ExileRegistryContainer/]: Entry of type: library_of_exile_item_requirement already exists as seriazable: is_map
-[24Aug2025 00:39:21.176] [modloading-worker-0/INFO] [io.redspace.ironsspellbooks.IronsSpellbooks/]: Got IMC []
-[24Aug2025 00:39:21.451] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[24Aug2025 00:39:22.539] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[24Aug2025 00:39:22.737] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: relics:researching_table Expected: 1072 Got: 1103
-[24Aug2025 00:39:22.738] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:mercenary_gear_helmet Expected: 1462 Got: 2042
-[24Aug2025 00:39:22.738] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:mercenary_gear_chestplate Expected: 1463 Got: 2043
-[24Aug2025 00:39:22.739] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:mercenary_gear_leggings Expected: 1464 Got: 2044
-[24Aug2025 00:39:22.739] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:mercenary_gear_boots Expected: 1465 Got: 2045
-[24Aug2025 00:39:22.739] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:mercenary_light_chestplate Expected: 1466 Got: 2046
-[24Aug2025 00:39:22.739] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:raider_armor_helmet Expected: 1467 Got: 2047
-[24Aug2025 00:39:22.739] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:raider_armor_chestplate Expected: 1468 Got: 2048
-[24Aug2025 00:39:22.739] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:raider_armor_leggings Expected: 1469 Got: 2049
-[24Aug2025 00:39:22.740] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:raider_armor_boots Expected: 1470 Got: 2050
-[24Aug2025 00:39:22.740] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:raider_light_variant_chestplate Expected: 1471 Got: 2051
-[24Aug2025 00:39:22.740] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:havoc_knight_armor_helmet Expected: 1472 Got: 2052
-[24Aug2025 00:39:22.740] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:havoc_knight_armor_chestplate Expected: 1473 Got: 2053
-[24Aug2025 00:39:22.740] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:havoc_knight_armor_leggings Expected: 1474 Got: 2054
-[24Aug2025 00:39:22.740] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:havoc_knight_armor_boots Expected: 1475 Got: 2055
-[24Aug2025 00:39:22.740] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:the_dames_armor_helmet Expected: 1476 Got: 2056
-[24Aug2025 00:39:22.741] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:the_dames_armor_chestplate Expected: 1477 Got: 2057
-[24Aug2025 00:39:22.741] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:the_dames_armor_leggings Expected: 1478 Got: 2058
-[24Aug2025 00:39:22.741] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:heavy_knight_armor_chestplate Expected: 1479 Got: 2059
-[24Aug2025 00:39:22.741] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:heavy_knight_armor_leggings Expected: 1480 Got: 2060
-[24Aug2025 00:39:22.741] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:samurai_set_helmet Expected: 1481 Got: 2061
-[24Aug2025 00:39:22.741] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:samurai_set_chestplate Expected: 1482 Got: 2062
-[24Aug2025 00:39:22.741] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:samurai_set_leggings Expected: 1483 Got: 2063
-[24Aug2025 00:39:22.742] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:samurai_set_boots Expected: 1484 Got: 2064
-[24Aug2025 00:39:22.742] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:menacing_knight_set_helmet Expected: 1485 Got: 2065
-[24Aug2025 00:39:22.742] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:japanese_footsoldier_helmet Expected: 1486 Got: 2066
-[24Aug2025 00:39:22.742] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:japanese_footsoldier_chestplate Expected: 1487 Got: 2067
-[24Aug2025 00:39:22.742] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:japanese_footsoldier_leggings Expected: 1488 Got: 2068
-[24Aug2025 00:39:22.742] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:knight_m_pink_helmet Expected: 1489 Got: 2069
-[24Aug2025 00:39:22.742] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:knight_m_pink_chestplate Expected: 1490 Got: 2070
-[24Aug2025 00:39:22.742] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:knight_m_pink_leggings Expected: 1491 Got: 2071
-[24Aug2025 00:39:22.742] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:knight_m_pink_boots Expected: 1492 Got: 2072
-[24Aug2025 00:39:22.743] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:knight_f_pink_helmet Expected: 1493 Got: 2073
-[24Aug2025 00:39:22.743] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:knight_f_pink_chestplate Expected: 1494 Got: 2074
-[24Aug2025 00:39:22.743] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:knight_f_pink_leggings Expected: 1495 Got: 2075
-[24Aug2025 00:39:22.743] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:knight_m_blue_helmet Expected: 1496 Got: 2076
-[24Aug2025 00:39:22.743] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:knight_m_blue_chestplate Expected: 1497 Got: 2077
-[24Aug2025 00:39:22.743] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:knight_f_blue_helmet Expected: 1498 Got: 2078
-[24Aug2025 00:39:22.744] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:knight_f_blue_chestplate Expected: 1499 Got: 2079
-[24Aug2025 00:39:22.744] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:knight_m_red_helmet Expected: 1500 Got: 2080
-[24Aug2025 00:39:22.744] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:knight_m_red_chestplate Expected: 1501 Got: 2081
-[24Aug2025 00:39:22.744] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:knight_f_red_helmet Expected: 1502 Got: 2082
-[24Aug2025 00:39:22.744] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:knight_f_red_chestplate Expected: 1503 Got: 2083
-[24Aug2025 00:39:22.745] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:knight_m_white_helmet Expected: 1504 Got: 2084
-[24Aug2025 00:39:22.746] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:knight_m_white_chestplate Expected: 1505 Got: 2085
-[24Aug2025 00:39:22.746] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:knight_f_white_helmet Expected: 1506 Got: 2086
-[24Aug2025 00:39:22.747] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:knight_f_white_chestplate Expected: 1507 Got: 2087
-[24Aug2025 00:39:22.748] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:red_mercenary_heavy_helmet Expected: 1508 Got: 2088
-[24Aug2025 00:39:22.748] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:red_mercenary_heavy_chestplate Expected: 1509 Got: 2089
-[24Aug2025 00:39:22.748] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:red_mercenary_heavy_leggings Expected: 1510 Got: 2090
-[24Aug2025 00:39:22.749] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:red_mercenary_heavy_boots Expected: 1511 Got: 2091
-[24Aug2025 00:39:22.749] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:blue_mercenary_heavy_helmet Expected: 1512 Got: 2092
-[24Aug2025 00:39:22.750] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:blue_mercenary_heavy_chestplate Expected: 1513 Got: 2093
-[24Aug2025 00:39:22.750] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:pink_mercenary_heavy_helmet Expected: 1514 Got: 2094
-[24Aug2025 00:39:22.751] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:pink_mercenary_heavy_chestplate Expected: 1515 Got: 2095
-[24Aug2025 00:39:22.751] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:white_mercenary_heavy_helmet Expected: 1516 Got: 2096
-[24Aug2025 00:39:22.752] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:white_mercenary_heavy_chestplate Expected: 1517 Got: 2097
-[24Aug2025 00:39:22.752] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:red_gold_mercenary_heavy_helmet Expected: 1518 Got: 2098
-[24Aug2025 00:39:22.753] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:red_gold_mercenary_heavy_chestplate Expected: 1519 Got: 2099
-[24Aug2025 00:39:22.753] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:red_gold_mercenary_heavy_leggings Expected: 1520 Got: 2100
-[24Aug2025 00:39:22.753] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:red_gold_mercenary_heavy_boots Expected: 1521 Got: 2101
-[24Aug2025 00:39:22.753] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:blue_gold_mercenary_heavy_helmet Expected: 1522 Got: 2102
-[24Aug2025 00:39:22.753] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:blue_gold_mercenary_heavy_chestplate Expected: 1523 Got: 2103
-[24Aug2025 00:39:22.754] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:pink_gold_mercenary_heavy_helmet Expected: 1524 Got: 2104
-[24Aug2025 00:39:22.754] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:pink_gold_mercenary_heavy_chestplate Expected: 1525 Got: 2105
-[24Aug2025 00:39:22.754] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:white_gold_mercenary_heavy_helmet Expected: 1526 Got: 2106
-[24Aug2025 00:39:22.755] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:white_gold_mercenary_heavy_chestplate Expected: 1527 Got: 2107
-[24Aug2025 00:39:22.755] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:red_corinthos_helmet Expected: 1528 Got: 2108
-[24Aug2025 00:39:22.755] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:blue_corinthos_helmet Expected: 1529 Got: 2109
-[24Aug2025 00:39:22.756] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:pink_corinthos_helmet Expected: 1530 Got: 2110
-[24Aug2025 00:39:22.756] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:white_corinthos_helmet Expected: 1531 Got: 2111
-[24Aug2025 00:39:22.756] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:red_gold_corinthos_helmet Expected: 1532 Got: 2112
-[24Aug2025 00:39:22.757] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:blue_gold_corinthos_helmet Expected: 1533 Got: 2113
-[24Aug2025 00:39:22.757] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:pink_gold_corinthos_helmet Expected: 1534 Got: 2114
-[24Aug2025 00:39:22.758] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:white_gold_corinthos_helmet Expected: 1535 Got: 2115
-[24Aug2025 00:39:22.758] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:beehive_armet_helmet Expected: 1536 Got: 2116
-[24Aug2025 00:39:22.758] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:iron_ronin_chestplate Expected: 1537 Got: 2117
-[24Aug2025 00:39:22.759] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:blue_samurai_set_helmet Expected: 1538 Got: 2118
-[24Aug2025 00:39:22.759] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:blue_samurai_set_chestplate Expected: 1539 Got: 2119
-[24Aug2025 00:39:22.759] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:blue_samurai_set_leggings Expected: 1540 Got: 2120
-[24Aug2025 00:39:22.760] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:blue_samurai_set_boots Expected: 1541 Got: 2121
-[24Aug2025 00:39:22.760] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:dreadnought_armor_helmet Expected: 1542 Got: 2122
-[24Aug2025 00:39:22.760] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:dreadnought_armor_chestplate Expected: 1543 Got: 2123
-[24Aug2025 00:39:22.760] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:dreadnought_armor_leggings Expected: 1544 Got: 2124
-[24Aug2025 00:39:22.761] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:dreadnought_armor_boots Expected: 1545 Got: 2125
-[24Aug2025 00:39:22.761] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:gladiator_armor_helmet Expected: 1546 Got: 2126
-[24Aug2025 00:39:22.761] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:gladiator_armor_chestplate Expected: 1547 Got: 2127
-[24Aug2025 00:39:22.762] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:gladiator_armor_leggings Expected: 1548 Got: 2128
-[24Aug2025 00:39:22.762] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:gladiator_armor_boots Expected: 1549 Got: 2129
-[24Aug2025 00:39:22.762] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:menacing_knight_helmet_big_helmet Expected: 1550 Got: 2130
-[24Aug2025 00:39:22.763] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:big_havoc_knighe_helmet_helmet Expected: 1551 Got: 2131
-[24Aug2025 00:39:22.763] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:avalon_armor_helmet Expected: 1552 Got: 2132
-[24Aug2025 00:39:22.763] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:avalon_armor_chestplate Expected: 1553 Got: 2133
-[24Aug2025 00:39:22.763] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:avalon_armor_leggings Expected: 1554 Got: 2134
-[24Aug2025 00:39:22.764] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:avalon_armor_boots Expected: 1555 Got: 2135
-[24Aug2025 00:39:22.764] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:avalon_cursed_helmet_helmet Expected: 1556 Got: 2136
-[24Aug2025 00:39:22.764] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:avalons_helmet_masked_helmet Expected: 1557 Got: 2137
-[24Aug2025 00:39:22.764] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:bandit_armor_helmet Expected: 1558 Got: 2138
-[24Aug2025 00:39:22.765] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:bandit_armor_chestplate Expected: 1559 Got: 2139
-[24Aug2025 00:39:22.765] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:bandit_armor_leggings Expected: 1560 Got: 2140
-[24Aug2025 00:39:22.765] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:bandit_armor_boots Expected: 1561 Got: 2141
-[24Aug2025 00:39:22.766] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:brute_armor_helmet Expected: 1562 Got: 2142
-[24Aug2025 00:39:22.766] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:brute_armor_chestplate Expected: 1563 Got: 2143
-[24Aug2025 00:39:22.766] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:brute_armor_leggings Expected: 1564 Got: 2144
-[24Aug2025 00:39:22.767] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:brute_armor_boots Expected: 1565 Got: 2145
-[24Aug2025 00:39:22.767] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:sentinel_set_helmet Expected: 1566 Got: 2146
-[24Aug2025 00:39:22.767] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:sentinel_set_chestplate Expected: 1567 Got: 2147
-[24Aug2025 00:39:22.768] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:sentinel_set_leggings Expected: 1568 Got: 2148
-[24Aug2025 00:39:22.768] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:sentinel_set_boots Expected: 1569 Got: 2149
-[24Aug2025 00:39:22.768] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:elite_sentinel_set_helmet Expected: 1570 Got: 2150
-[24Aug2025 00:39:22.768] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:elite_sentinel_set_chestplate Expected: 1571 Got: 2151
-[24Aug2025 00:39:22.769] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:drifter_hood_armor_helmet Expected: 1572 Got: 2152
-[24Aug2025 00:39:22.769] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:ronin_set_helmet Expected: 1573 Got: 2153
-[24Aug2025 00:39:22.769] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:ronin_set_chestplate Expected: 1574 Got: 2154
-[24Aug2025 00:39:22.769] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:ronin_set_leggings Expected: 1575 Got: 2155
-[24Aug2025 00:39:22.769] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:ronin_set_boots Expected: 1576 Got: 2156
-[24Aug2025 00:39:22.769] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:ronin_robe_red_helmet Expected: 1577 Got: 2157
-[24Aug2025 00:39:22.770] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:ronin_robe_red_chestplate Expected: 1578 Got: 2158
-[24Aug2025 00:39:22.770] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:ronin_robe_red_white_sleeves_chestplate Expected: 1579 Got: 2159
-[24Aug2025 00:39:22.771] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:ronin_robe_red_black_sleeves_chestplate Expected: 1580 Got: 2160
-[24Aug2025 00:39:22.771] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:legacy_samurai_armor_helmet Expected: 1581 Got: 2161
-[24Aug2025 00:39:22.772] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:legacy_samurai_armor_chestplate Expected: 1582 Got: 2162
-[24Aug2025 00:39:22.772] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:legacy_samurai_armor_blue_helmet Expected: 1583 Got: 2163
-[24Aug2025 00:39:22.772] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:legacy_samurai_armor_blue_chestplate Expected: 1584 Got: 2164
-[24Aug2025 00:39:22.773] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:wokou_armor_helmet Expected: 1585 Got: 2165
-[24Aug2025 00:39:22.773] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:wokou_armor_chestplate Expected: 1586 Got: 2166
-[24Aug2025 00:39:22.773] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:wokou_armor_blue_helmet Expected: 1587 Got: 2167
-[24Aug2025 00:39:22.773] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:wokou_armor_blue_chestplate Expected: 1588 Got: 2168
-[24Aug2025 00:39:22.773] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:wokou_armor_black_helmet Expected: 1589 Got: 2169
-[24Aug2025 00:39:22.774] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:wokou_armor_black_chestplate Expected: 1590 Got: 2170
-[24Aug2025 00:39:22.774] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:ronin_robe_white_chestplate Expected: 1591 Got: 2171
-[24Aug2025 00:39:22.774] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:ronin_robe_white_floral_chestplate Expected: 1592 Got: 2172
-[24Aug2025 00:39:22.775] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:ronin_robe_blue_black_sleeves_chestplate Expected: 1593 Got: 2173
-[24Aug2025 00:39:22.775] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:ronin_robe_blue_white_sleeves_chestplate Expected: 1594 Got: 2174
-[24Aug2025 00:39:22.775] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:ronin_robe_black_chestplate Expected: 1595 Got: 2175
-[24Aug2025 00:39:22.775] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:ronin_robe_black_floral_chestplate Expected: 1596 Got: 2176
-[24Aug2025 00:39:22.776] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:takemaru_armor_helmet Expected: 1597 Got: 2177
-[24Aug2025 00:39:22.776] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:takemaru_armor_chestplate Expected: 1598 Got: 2178
-[24Aug2025 00:39:22.776] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:takemaru_armor_leggings Expected: 1599 Got: 2179
-[24Aug2025 00:39:22.776] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:takemaru_armor_boots Expected: 1600 Got: 2180
-[24Aug2025 00:39:22.777] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:crusader_armor_helmet Expected: 1601 Got: 2181
-[24Aug2025 00:39:22.777] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:crusader_armor_chestplate Expected: 1602 Got: 2182
-[24Aug2025 00:39:22.777] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:crusader_armor_leggings Expected: 1603 Got: 2183
-[24Aug2025 00:39:22.778] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:crusader_armor_boots Expected: 1604 Got: 2184
-[24Aug2025 00:39:22.778] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:knight_armet_helmet Expected: 1605 Got: 2185
-[24Aug2025 00:39:22.778] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:dark_crusader_armor_helmet Expected: 1606 Got: 2186
-[24Aug2025 00:39:22.778] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:dark_crusader_armor_chestplate Expected: 1607 Got: 2187
-[24Aug2025 00:39:22.778] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:dark_crusader_armor_leggings Expected: 1608 Got: 2188
-[24Aug2025 00:39:22.779] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:dark_crusader_armor_boots Expected: 1609 Got: 2189
-[24Aug2025 00:39:22.780] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:refalian_crusader_armor_helmet Expected: 1610 Got: 2190
-[24Aug2025 00:39:22.780] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:refalian_crusader_armor_chestplate Expected: 1611 Got: 2191
-[24Aug2025 00:39:22.780] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:refalian_crusader_armor_leggings Expected: 1612 Got: 2192
-[24Aug2025 00:39:22.780] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:estanese_crusader_armor_helmet Expected: 1613 Got: 2193
-[24Aug2025 00:39:22.780] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:estanese_crusader_armor_chestplate Expected: 1614 Got: 2194
-[24Aug2025 00:39:22.780] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:estanese_crusader_armor_leggings Expected: 1615 Got: 2195
-[24Aug2025 00:39:22.781] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:death_knight_armor_helmet Expected: 1616 Got: 2196
-[24Aug2025 00:39:22.781] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:death_knight_armor_chestplate Expected: 1617 Got: 2197
-[24Aug2025 00:39:22.782] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:death_knight_armor_leggings Expected: 1618 Got: 2198
-[24Aug2025 00:39:22.784] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:death_knight_armor_boots Expected: 1619 Got: 2199
-[24Aug2025 00:39:22.784] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:highlander_set_helmet Expected: 1620 Got: 2200
-[24Aug2025 00:39:22.784] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:highlander_set_chestplate Expected: 1621 Got: 2201
-[24Aug2025 00:39:22.784] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:highlander_set_leggings Expected: 1622 Got: 2202
-[24Aug2025 00:39:22.784] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:highlander_sleeved_chestplate Expected: 1623 Got: 2203
-[24Aug2025 00:39:22.784] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:hedge_knight_armor_helmet Expected: 1624 Got: 2204
-[24Aug2025 00:39:22.784] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:hedge_knight_armor_chestplate Expected: 1625 Got: 2205
-[24Aug2025 00:39:22.785] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:hedge_knight_armor_leggings Expected: 1626 Got: 2206
-[24Aug2025 00:39:22.785] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:hedge_knight_armor_boots Expected: 1627 Got: 2207
-[24Aug2025 00:39:22.785] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:hedge_knight_helmet_no_shadow_helmet Expected: 1628 Got: 2208
-[24Aug2025 00:39:22.785] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:outrider_set_helmet Expected: 1629 Got: 2209
-[24Aug2025 00:39:22.786] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:outrider_set_chestplate Expected: 1630 Got: 2210
-[24Aug2025 00:39:22.786] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:outrider_set_leggings Expected: 1631 Got: 2211
-[24Aug2025 00:39:22.786] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:outrider_set_boots Expected: 1632 Got: 2212
-[24Aug2025 00:39:22.786] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:bulwark_armor_helmet Expected: 1633 Got: 2213
-[24Aug2025 00:39:22.787] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:bulwark_armor_chestplate Expected: 1634 Got: 2214
-[24Aug2025 00:39:22.787] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:bulwark_armor_leggings Expected: 1635 Got: 2215
-[24Aug2025 00:39:22.787] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: jet_and_elias_armors:bulwark_armor_boots Expected: 1636 Got: 2216
-[24Aug2025 00:39:22.787] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: relics:solid_snowball Expected: 1637 Got: 2217
-[24Aug2025 00:39:22.787] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: relics:relic_experience_bottle Expected: 1638 Got: 2218
-[24Aug2025 00:39:22.788] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: relics:spatial_sign Expected: 1639 Got: 2219
-[24Aug2025 00:39:22.788] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: relics:reflection_necklace Expected: 1640 Got: 2220
-[24Aug2025 00:39:22.788] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: relics:magma_walker Expected: 1641 Got: 2221
-[24Aug2025 00:39:22.788] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: relics:aqua_walker Expected: 1642 Got: 2222
-[24Aug2025 00:39:22.788] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: relics:midnight_robe Expected: 1643 Got: 2223
-[24Aug2025 00:39:22.788] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: relics:drowned_belt Expected: 1644 Got: 2224
-[24Aug2025 00:39:22.789] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: relics:jellyfish_necklace Expected: 1645 Got: 2225
-[24Aug2025 00:39:22.789] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: relics:hunter_belt Expected: 1646 Got: 2226
-[24Aug2025 00:39:22.789] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: relics:rage_glove Expected: 1647 Got: 2227
-[24Aug2025 00:39:22.789] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: relics:ice_skates Expected: 1648 Got: 2228
-[24Aug2025 00:39:22.789] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: relics:bastion_ring Expected: 1649 Got: 2229
-[24Aug2025 00:39:22.790] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: relics:chorus_inhibitor Expected: 1650 Got: 2230
-[24Aug2025 00:39:22.790] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: relics:arrow_quiver Expected: 1651 Got: 2231
-[24Aug2025 00:39:22.790] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: relics:space_dissector Expected: 1652 Got: 2232
-[24Aug2025 00:39:22.790] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: relics:holy_locket Expected: 1653 Got: 2233
-[24Aug2025 00:39:22.791] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: relics:enders_hand Expected: 1654 Got: 2234
-[24Aug2025 00:39:22.791] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: relics:elytra_booster Expected: 1655 Got: 2235
-[24Aug2025 00:39:22.791] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: relics:magic_mirror Expected: 1656 Got: 2236
-[24Aug2025 00:39:22.791] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: relics:ice_breaker Expected: 1657 Got: 2237
-[24Aug2025 00:39:22.792] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: relics:blazing_flask Expected: 1658 Got: 2238
-[24Aug2025 00:39:22.792] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: relics:spore_sack Expected: 1659 Got: 2239
-[24Aug2025 00:39:22.792] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: relics:shadow_glaive Expected: 1660 Got: 2240
-[24Aug2025 00:39:22.792] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: relics:roller_skates Expected: 1661 Got: 2241
-[24Aug2025 00:39:22.793] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: relics:infinity_ham Expected: 1662 Got: 2242
-[24Aug2025 00:39:22.793] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: relics:leather_belt Expected: 1663 Got: 2243
-[24Aug2025 00:39:22.793] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: relics:horse_flute Expected: 1664 Got: 2244
-[24Aug2025 00:39:22.793] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: relics:wool_mitten Expected: 1665 Got: 2245
-[24Aug2025 00:39:22.793] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: relics:amphibian_boot Expected: 1666 Got: 2246
-[24Aug2025 00:39:22.794] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: relics:researching_table Expected: 1667 Got: 2247
-[24Aug2025 00:39:22.794] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: relics:stun Expected: 41 Got: 80
-[24Aug2025 00:39:22.794] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: relics:confusion Expected: 42 Got: 81
-[24Aug2025 00:39:22.794] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: relics:paralysis Expected: 43 Got: 82
-[24Aug2025 00:39:22.794] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: relics:vanishing Expected: 44 Got: 83
-[24Aug2025 00:39:22.794] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: relics:anti_heal Expected: 45 Got: 84
-[24Aug2025 00:39:22.794] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: relics:bleeding Expected: 46 Got: 85
-[24Aug2025 00:39:22.795] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: jet_and_elias_armors:fullblocksound Expected: 1511 Got: 1684
-[24Aug2025 00:39:22.795] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: jet_and_elias_armors:heavywound Expected: 1512 Got: 1685
-[24Aug2025 00:39:22.795] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: jet_and_elias_armors:devilclubhit Expected: 1513 Got: 1686
-[24Aug2025 00:39:22.796] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: jet_and_elias_armors:devotedonelaugh Expected: 1514 Got: 1687
-[24Aug2025 00:39:22.796] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: jet_and_elias_armors:devotedhurt Expected: 1515 Got: 1688
-[24Aug2025 00:39:22.796] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: jet_and_elias_armors:devoteddeath Expected: 1516 Got: 1689
-[24Aug2025 00:39:22.796] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: jet_and_elias_armors:devotedlaugh Expected: 1517 Got: 1690
-[24Aug2025 00:39:22.796] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: relics:ricochet Expected: 1518 Got: 1691
-[24Aug2025 00:39:22.796] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: relics:throw Expected: 1519 Got: 1692
-[24Aug2025 00:39:22.796] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: relics:arrow_rain Expected: 1520 Got: 1693
-[24Aug2025 00:39:22.796] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: relics:spurt Expected: 1521 Got: 1694
-[24Aug2025 00:39:22.797] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: relics:powered_arrow Expected: 1522 Got: 1695
-[24Aug2025 00:39:22.797] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: relics:leap Expected: 1523 Got: 1696
-[24Aug2025 00:39:22.797] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: relics:table_upgrade Expected: 1524 Got: 1697
-[24Aug2025 00:39:22.797] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: relics:table_reroll Expected: 1525 Got: 1698
-[24Aug2025 00:39:22.797] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: relics:table_reset Expected: 1526 Got: 1699
-[24Aug2025 00:39:22.797] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: relics:ability_locked Expected: 1527 Got: 1700
-[24Aug2025 00:39:22.797] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: relics:ability_cooldown Expected: 1528 Got: 1701
-[24Aug2025 00:39:22.797] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: relics:ability_cast Expected: 1529 Got: 1702
-[24Aug2025 00:39:22.798] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: relics:shadow_glaive Expected: 192 Got: 302
-[24Aug2025 00:39:22.798] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: relics:block_simulation Expected: 193 Got: 303
-[24Aug2025 00:39:22.798] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: relics:shockwave Expected: 194 Got: 304
-[24Aug2025 00:39:22.798] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: relics:life_essence Expected: 195 Got: 305
-[24Aug2025 00:39:22.798] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: relics:death_essence Expected: 196 Got: 306
-[24Aug2025 00:39:22.798] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: relics:stalactite Expected: 197 Got: 307
-[24Aug2025 00:39:22.799] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: relics:dissection Expected: 198 Got: 308
-[24Aug2025 00:39:22.799] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: relics:spore Expected: 199 Got: 309
-[24Aug2025 00:39:22.799] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: relics:shadow_saw Expected: 200 Got: 310
-[24Aug2025 00:39:22.799] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: relics:solid_snowball Expected: 201 Got: 311
-[24Aug2025 00:39:22.799] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: relics:arrow_rain Expected: 202 Got: 312
-[24Aug2025 00:39:22.799] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: relics:relic_experience_orb Expected: 203 Got: 313
-[24Aug2025 00:39:22.801] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: relics:thrown_relic_experience_bottle Expected: 204 Got: 314
-[24Aug2025 00:39:23.332] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Server2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23131!/assets/.mcassetsroot' uses unexpected schema
-[24Aug2025 00:39:23.332] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Server2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23131!/data/.mcassetsroot' uses unexpected schema
-[24Aug2025 00:39:25.404] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe irons_spellbooks:curios/concentration_amulet
-com.google.gson.JsonSyntaxException: Unknown item 'irons_spellbooks:mithril_ingot'
-	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.7-universal.jar%23136!/:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.7-universal.jar%23136!/:?]
-	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.world.item.crafting.ShapedRecipe.m_44210_(ShapedRecipe.java:278) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:306) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23136!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+[24Aug2025 00:46:19.218] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[24Aug2025 00:46:19.221] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[24Aug2025 00:46:19.649] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[24Aug2025 00:46:19.715] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Server2/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[24Aug2025 00:46:19.943] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server2/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[24Aug2025 00:46:19.945] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server2/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[24Aug2025 00:46:19.946] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server2/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[24Aug2025 00:46:19.947] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server2/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[24Aug2025 00:46:20.094] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[24Aug2025 00:46:20.146] [main/ERROR] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Missing or unsupported mandatory dependencies:
+	Mod ID: 'obscure_api', Requested by: 'aquamirae', Expected range: '[15,)', Actual version: '[MISSING]'
+[24Aug2025 00:46:21.519] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[24Aug2025 00:46:27.214] [main/FATAL] [net.minecraftforge.fml.ModLoader/CORE]: Error during pre-loading phase
+net.minecraftforge.fml.ModLoadingException: Mod §eaquamirae§r requires §6obscure_api§r §o15 or above§r
+§7Currently, §6obscure_api§r§7 is §o§nnot installed
+	at net.minecraftforge.fml.ModLoadingException.lambda$fromEarlyException$0(ModLoadingException.java:50) ~[fmlcore-1.20.1-47.3.7.jar%23142!/:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.util.AbstractList$RandomAccessSpliterator.forEachRemaining(AbstractList.java:720) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276) ~[?:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.<init>(ModLoader.java:96) ~[fmlcore-1.20.1-47.3.7.jar%23142!/:?]
+	at net.minecraftforge.fml.ModLoader.get(ModLoader.java:128) ~[fmlcore-1.20.1-47.3.7.jar%23142!/:?]
+	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:30) ~[forge-1.20.1-47.3.7-universal.jar%23146!/:?]
+	at net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -319,29 +48,15 @@ com.google.gson.JsonSyntaxException: Unknown item 'irons_spellbooks:mithril_ingo
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[24Aug2025 00:39:25.416] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe aerlunerpg:bait_22
-com.google.gson.JsonSyntaxException: Unknown item 'aerlunerpg:deleted_mod_element'
-	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.7-universal.jar%23136!/:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.7-universal.jar%23136!/:?]
-	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.world.item.crafting.ShapedRecipe.m_44210_(ShapedRecipe.java:278) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:306) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23136!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+[24Aug2025 00:46:27.283] [main/FATAL] [net.minecraftforge.server.loading.ServerModLoader/]: Crash report saved to ./crash-reports/crash-2025-08-24_00.46.27-fml.txt
+[24Aug2025 00:46:27.285] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
+net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
+	Mod §eaquamirae§r requires §6obscure_api§r §o15 or above§r
+§7Currently, §6obscure_api§r§7 is §o§nnot installed
+]
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:149) ~[fmlcore-1.20.1-47.3.7.jar%23142!/:?]
+	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:30) ~[forge-1.20.1-47.3.7-universal.jar%23146!/:?]
+	at net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -357,60 +72,3 @@ com.google.gson.JsonSyntaxException: Unknown item 'aerlunerpg:deleted_mod_elemen
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[24Aug2025 00:39:25.439] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[24Aug2025 00:39:25.549] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1301 advancements
-[24Aug2025 00:39:26.348] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
-[24Aug2025 00:39:26.351] [main/ERROR] [top.theillusivec4.curios.Curios/]: talisman is not a registered slot type!
-[24Aug2025 00:39:26.352] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[24Aug2025 00:39:26.837] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[24Aug2025 00:39:26.838] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[24Aug2025 00:39:26.839] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[24Aug2025 00:39:26.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[24Aug2025 00:39:26.984] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[24Aug2025 00:39:27.009] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[24Aug2025 00:39:27.089] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[24Aug2025 00:39:27.089] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[24Aug2025 00:39:27.089] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[24Aug2025 00:39:27.089] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[24Aug2025 00:39:27.135] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/mine_and_slash-server.toml is not correct. Correcting
-[24Aug2025 00:39:27.139] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.ENTITY_SUMMON_BLACKLIST was corrected from [minecraft:allay, minecraft:armor_stand] to its default, [minecraft:allay, minecraft:armor_stand]. 
-[24Aug2025 00:39:27.142] [Thread-1/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/Server2/servidor_minecraft/./world/serverconfig/mine_and_slash-server.toml is not correct. Correcting
-[24Aug2025 00:39:27.201] [Server thread/INFO] [Exile Log: com.robertx22.library_of_exile.dimension.WipeDimensionFeature/]: Wiping dimension folder: /workspaces/Server2/servidor_minecraft/world/dimensions/the_harvest/harvest - If this is a the_harvest:harvest dimension folder, then the feature is working correctly. Report if it tries deleting something else though!
-[24Aug2025 00:39:27.202] [Server thread/INFO] [Exile Log: com.robertx22.library_of_exile.dimension.WipeDimensionFeature/]: These dimensions are meant to be wiped on server boot to remain infinite.
-[24Aug2025 00:39:27.233] [Server thread/INFO] [Exile Log: com.robertx22.library_of_exile.dimension.WipeDimensionFeature/]: Wiping dimension folder: /workspaces/Server2/servidor_minecraft/world/dimensions/dungeon_realm/dungeon - If this is a dungeon_realm:dungeon dimension folder, then the feature is working correctly. Report if it tries deleting something else though!
-[24Aug2025 00:39:27.234] [Server thread/INFO] [Exile Log: com.robertx22.library_of_exile.dimension.WipeDimensionFeature/]: These dimensions are meant to be wiped on server boot to remain infinite.
-[24Aug2025 00:39:27.239] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[24Aug2025 00:39:30.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[24Aug2025 00:39:33.090] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24Aug2025 00:39:33.091] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24Aug2025 00:39:33.092] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24Aug2025 00:39:33.096] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24Aug2025 00:39:33.097] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24Aug2025 00:39:33.098] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24Aug2025 00:39:33.176] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24Aug2025 00:39:33.675] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[24Aug2025 00:39:34.175] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
-[24Aug2025 00:39:34.424] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4250 ms
-[24Aug2025 00:39:34.426] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (7.322s)! For help, type "help"
-[24Aug2025 00:39:34.468] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[24Aug2025 00:39:58.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[24Aug2025 00:39:58.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[24Aug2025 00:39:58.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[24Aug2025 00:39:58.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[24Aug2025 00:39:59.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[24Aug2025 00:40:00.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_harvest:harvest
-[24Aug2025 00:40:00.421] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/mmorpg:dungeon
-[24Aug2025 00:40:00.422] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/aerlunerpg:crowdd
-[24Aug2025 00:40:00.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dungeon_realm:dungeon
-[24Aug2025 00:40:00.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/aerlunerpg:iced
-[24Aug2025 00:40:00.425] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[24Aug2025 00:40:00.425] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[24Aug2025 00:40:00.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[24Aug2025 00:40:00.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (harvest): All chunks are saved
-[24Aug2025 00:40:00.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dungeon): All chunks are saved
-[24Aug2025 00:40:00.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (crowdd): All chunks are saved
-[24Aug2025 00:40:00.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dungeon): All chunks are saved
-[24Aug2025 00:40:00.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (iced): All chunks are saved
-[24Aug2025 00:40:00.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[24Aug2025 00:40:00.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[24Aug2025 00:40:00.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
